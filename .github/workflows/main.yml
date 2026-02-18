@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pandas scikit-learn matplotlib
+        pip install pandas scikit-learn matplotlib tensorflow
 
 
     - name: Run decision tree script
